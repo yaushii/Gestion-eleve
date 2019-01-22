@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+<head>
+    <title>Gestion d'eleve.</title>
+    <meta charset="utf-8" />
+    <!-- on charge le fichier javascript. Le defer est important -->
+    <script type="text/javascript" src="js/index.js" defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+    <div class="form-group">
+        <div class="row">
+            <div class="col">
+                <h1>Promotions</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col">
+                <div class="ajout">
+                    <input id="input" type="text" placeholder="promotions">
+                    <button class="btn btn-dark aj" id="buttonadd">ajouter</button><br>
+                </div>
+
+                <div class="modifier">
+                    <input id="input-modif" type="text" placeholder="new name">
+                    <a class="btn btn-dark mod" id="buttonmod" href="#">modifier</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col">
+                <select id="inputState" class="form-control">
+                    <option selected>Choisissez une promotion</option>
+                </select>
+            </div>
+            <div class="col">
+                
+                <a class="btn btn-dark " id="buttonsupp" href="#">supprimer</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+    
+    <ul id='mydiv'></ul>
+</div>
+</body>
+
+</html>
